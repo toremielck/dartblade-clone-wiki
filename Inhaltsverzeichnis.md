@@ -1,6 +1,6 @@
 # Inhaltsverzeichnis
 
-[Spielkonzept](Spielkonzept)
+[Spielkonzept](Spielkonzept) 
 [Spielkonzept](Spielkonzept)
 
 
