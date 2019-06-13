@@ -1,4 +1,6 @@
-Inhaltsverzeichnis
+# Inhaltsverzeichnis
 
-[Inhaltsverzeichnis](Inhaltsverzeichnis)
 [Spielkonzept](Spielkonzept)
+[Spielkonzept](Spielkonzept)
+
+
