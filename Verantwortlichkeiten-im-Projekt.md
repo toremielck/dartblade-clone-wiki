@@ -19,5 +19,6 @@
 | DartBladeGameModel.dart      | Detail | Asset | Mario Odzga        | Tore Mielck   | Anmerkungen |
 | DartBladeGameView.dart       | Detail | Asset | Mario Odzga        | Tore Mielck   | Anmerkungen |
 | DartBladeGameController.dart | Detail | Asset | Mario Odzga        | Tore Mielck   | Anmerkungen |
+| Blade.dart                   | Detail | Asset | Mario Odzga        | Tore Mielck   | Anmerkungen |
 | index.html                   | Detail | Asset | Mario Odzga        | Tore Mielck   | Anmerkungen |
 | style.css                    | Detail | Asset | Mario Odzga        | Tore Mielck   | Anmerkungen |
