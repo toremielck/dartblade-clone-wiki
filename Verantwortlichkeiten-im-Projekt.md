@@ -16,4 +16,4 @@
 
 | Komponente | Detail | Asset | Mario Odzga | Tore Mielck | Anmerkungen | 
 | ---------- | ------ | ----- | ----------- | ----------- | ----------- |
-| Komponente | Detail | Asset | Mario Odzga | Tore Mielck | Anmerkungen |
+| DartBladegameController.dart | Detail | Asset | Mario Odzga | Tore Mielck | Anmerkungen |
