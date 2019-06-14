@@ -58,6 +58,6 @@ Die Instanz der Blade Entity stellt das Haupt-Spielerobjekt dart und lässt sich
   } 
 ```  
 
-Es wird durch einen Timer in der **BladeGameController.dart** gesteuert die oben zu sehende Funktion aufgerufen.  
+Es wird durch einen Timer in der **BladeGameController.dart** gesteuert die oben zu sehende Funktion aufgerufen.    
 Diese **überschreibt** den aktuellen **Positionswert** des Blades mit der vom Gyroskop-Sensor kommenden **Bewegunsrichtung**. Sollte der Player den Rand des Viewport erreichen, so wird auch die **moveLevel()-Funktion** aus der View aufgerufen, um das Level in die entsprechende Richtung zu bewegen.     
 Außerdem befindet sich innerhalb der **move()-Funktion** des Blades die Funktion **collisionDetection()**. Diese wird bei jeder Bewegung des Blades mit aufgerufen und überprüft, ob eine Kollision mit einem relevanten Objekt aufgetreten ist. (siehe [Die verschiedenen Tiles](Die verschiedenen Tiles)). Sollte dies der Fall sein, so wird die entsprechende Funktion des Tiles aufgerufen.
