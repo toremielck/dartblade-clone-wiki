@@ -14,6 +14,10 @@
 4. [Nachweis der Anforderungen](Nachweis der Anforderungen)
 5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
 
-| Komponente | Detail | Asset | Verantwortlichkeit | Unterstützung | Anmerkungen | 
-| ---------------------------- | ------ | ----- | ----------- | ----------- | ----------- |
-| DartBladegameController.dart | Detail | Asset | Mario Odzga | Tore Mielck | Anmerkungen |
+| Komponente                   | Detail | Asset | Verantwortlichkeit | Unterstützung | Anmerkungen | 
+| ---------------------------- | ------ | ----- | ------------------ | ------------- | ----------- |
+| DartBladeGameModel.dart      | Detail | Asset | Mario Odzga        | Tore Mielck   | Anmerkungen |
+| DartBladeGameView.dart       | Detail | Asset | Mario Odzga        | Tore Mielck   | Anmerkungen |
+| DartBladeGameController.dart | Detail | Asset | Mario Odzga        | Tore Mielck   | Anmerkungen |
+| index.html                   | Detail | Asset | Mario Odzga        | Tore Mielck   | Anmerkungen |
+| style.css                    | Detail | Asset | Mario Odzga        | Tore Mielck   | Anmerkungen |
