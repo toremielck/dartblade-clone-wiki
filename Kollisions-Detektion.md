@@ -51,4 +51,7 @@ Dies passiert über folgenden Code:
       }
     });
   }
-```
+```  
+
+Es wird zunächst eine Liste aller Tiles des aktuellen Levels eingelesen. Dann wird für jedes Tile in dieser Liste überprüft, ob der Spieler den linken, oberen, unteren oder rechten des Tiles überquert hat. Sollte dies der Fall sein, wird das Type-Attribut des entsprechenden Tiles ausgelesen und die dazugehörige Funktion ausgeführt.  
+(Es sind hier aus Demonstrationszwecken nicht alle Tile-Typen und deren Aktionen im Code aufgefürt!)
