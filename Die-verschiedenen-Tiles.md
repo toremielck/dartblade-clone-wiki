@@ -15,4 +15,5 @@
 5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)  
 
 ## Das Ground-Tile  
+![ground](uploads/ed9d6b00568063b73ce8ebe70b5ae549/ground.jpg)
 Das Ground-Tile ist das normale Hintergrund-Tile des Games auf dem sich der Blade frei bewegen kann. Es wird in keinem Fall eine Aktion ausgeführt.
