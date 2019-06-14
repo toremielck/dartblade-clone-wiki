@@ -15,5 +15,5 @@
 5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
 
 | Komponente | Detail | Asset | Mario Odzga | Tore Mielck | Anmerkungen | 
-| ---------- | ------ | ----- | ----------- | ----------- | ----------- |
+| ---------------------------- | ------ | ----- | ----------- | ----------- | ----------- |
 | DartBladegameController.dart | Detail | Asset | Mario Odzga | Tore Mielck | Anmerkungen |
