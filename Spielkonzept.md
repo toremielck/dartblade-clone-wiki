@@ -1,7 +1,8 @@
 # Inhaltsverzeichnis
   
 1. [Spielkonzept](Spielkonzept)
-   *  [Anforderungen an das Spielkonzept](Anforderungen an das Spielkonzept)
+   1.  [Anforderungen an das Spielkonzept](Anforderungen an das Spielkonzept)
+   2.  Umsetzung des Spielkonzeptes
 2. [Architektur und Implementierung](Architektur und Implementierung)
 3. [Nachweis der Anforderungen](Nachweis der Anforderungen)
 4. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
