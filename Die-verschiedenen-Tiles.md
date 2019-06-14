@@ -20,4 +20,4 @@ Das Ground-Tile ist das normale Hintergrund-Tile des Games auf dem sich der Blad
 
 ## Das Goal-Tile  
 ![goal](uploads/5b6248fdbc12f2cc90e115a0b224f65a/goal.png)  
-Das Goal-Tile ist das zu erreichende Ziel-Feld des Spiels. Erreicht man durch das Bewegen des Blades das Goal-Tile **bevor der Spin des Blades auf 0 gelaufen ist++, so hat man das aktuelle Level gewonnen.
+Das Goal-Tile ist das zu erreichende Ziel-Feld des Spiels. Erreicht man durch das Bewegen des Blades das Goal-Tile **bevor der Spin des Blades auf 0 gelaufen ist**, so hat man das aktuelle Level gewonnen.
