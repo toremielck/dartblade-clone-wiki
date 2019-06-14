@@ -14,3 +14,38 @@
    3.3.1 [Laufendes Spiel](Laufendes Spiel)  
 4. [Nachweis der Anforderungen](Nachweis der Anforderungen)
 5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
+
+## Bewegen des Levels  
+
+```dart
+/// Bewegen des Levels in eine [direction] und mit einem [movingSpeed]
+  void moveLevel(direction, movingSpeed) {
+
+    switch (direction) {
+      case 'up':
+        levelPositionTop -= movingSpeed;
+        level.style.setProperty("top", "${levelPositionTop}px");
+        break;
+      case 'down':
+        levelPositionTop += movingSpeed;
+        level.style.setProperty("top", "${levelPositionTop}px");
+        break;
+      case 'left':
+        levelPositionRight -= movingSpeed;
+        level.style.setProperty("right", "${levelPositionRight}px");
+        break;
+      case 'right':
+        levelPositionRight += movingSpeed;
+        level.style.setProperty("right", "${levelPositionRight}px");
+        break;
+      default:
+        break;
+
+    }
+  }
+```  
+
+Über die oben gezeigte Funktion **moveLevel()**, welche aufgerufen wird sobald der Spieler den Rand des Viewports erreicht wird das Level je nachdem, ob der Spieler den Viewport links, oben, unten oder rechts berührt, das Level in die genau entgegengesetzte Richtung bewegt. Die Funktion **moveLevel()** nimmt zwei Parameter entgegen:  
+
+1.  Die Richtung in die das Level bewegt werden soll
+2.  Die Geschwindigkeit mit der die Bewegung ausgeführt werden soll (in Pixel pro Timer-Intervall)
