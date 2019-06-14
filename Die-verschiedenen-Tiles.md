@@ -12,4 +12,7 @@
    3.3 [Controller](Controller)  
    3.3.1 [Laufendes Spiel](Laufendes Spiel)  
 4. [Nachweis der Anforderungen](Nachweis der Anforderungen)
-5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
+5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)  
+
+## Das Ground-Tile  
+Das Ground-Tile ist das normale Hintergrund-Tile des Games auf dem sich der Blade frei bewegen kann. Es wird in keinem Fall eine Aktion ausgeführt.
