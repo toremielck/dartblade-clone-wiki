@@ -23,7 +23,6 @@ Die Instanz der Blade Entity stellt das Haupt-Spielerobjekt dart und lässt sich
   /// und führt die collision detection aus.
   void update() {
 
-    view.moveLevelDebug(model._currentLevel);
     collisionDetection();
 
     this.position_x += this.direction_x;
