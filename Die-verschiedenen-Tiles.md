@@ -24,3 +24,5 @@ Das Goal-Tile ist das zu erreichende Ziel-Feld des Spiels. Erreicht man durch da
 
 ## Das Spin-Tile  
 ![spin](uploads/2bc61ee40225e1130be1f1a778cd49ca/spin.gif)  
+Beim überfahren des Spin-Tiles mit dem Blade fängt das gesamte Level an zu wackeln. Dies passiert solange, bis man das selbe oder ein anderes Spin-Tile nocheinmal überfährt.  
+Sinn dieses Tiles ist es z.B. das Goal-Tile s.o. mit Spin-Tiles einzugrenzen, und so die Steuerung des Blades zu erschweren.
