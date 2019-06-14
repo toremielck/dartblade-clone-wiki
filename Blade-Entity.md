@@ -18,7 +18,8 @@
 
 Die Instanz der Blade Entity stellt das Haupt-Spielerobjekt dart und lässt sich über den in Smartphones enthaltenen Gyroskop-Sensor steuern. Dies passiert über folgende Funktion in der **Blade.dart **.  
 
-`/// Updatet die Position des Players entsprechend der Werte des Gyro-Sensors
+```dart
+/// Updatet die Position des Players entsprechend der Werte des Gyro-Sensors
   /// und führt die collision detection aus.
   void update() {
 
@@ -56,4 +57,4 @@ Die Instanz der Blade Entity stellt das Haupt-Spielerobjekt dart und lässt sich
     }
 
   } 
-`
+```
