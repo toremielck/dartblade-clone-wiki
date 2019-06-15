@@ -36,4 +36,4 @@ Es wird beispielsweise die Position des Spielers, welcher in der *index.html* ei
   }
 ```  
 
-Die Links-Rechts-Position des Spieler-Divs entspricht im Model *this.blade.style.top*. Die Oben-Unten-Position des Spielers entspricht
+Die Links-Rechts-Position des Spieler-Divs entspricht im Model *player.top*. Die Oben-Unten-Position des Spielers entspricht *player.left*.
