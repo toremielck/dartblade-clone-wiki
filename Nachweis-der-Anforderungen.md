@@ -17,16 +17,16 @@
 
 ## Nachweis der Anforderungen  
 
-| ID     | Kurztitel | Erfüllt | Teilw. erfüllt | Nicht erfüllt | Erläuterung |
-| ------ | --------- | ------- | -------------- | ------------- | ----------- |
-| AF-1   | cell      | cell    | cell           | cell          | cell        |
-| AF-1   | cell      | cell    | cell           | cell          | cell        |
-| AF-1   | cell      | cell    | cell           | cell          | cell        |
-| AF-1   | cell      | cell    | cell           | cell          | cell        |
-| AF-1   | cell      | cell    | cell           | cell          | cell        |
-| AF-1   | cell      | cell    | cell           | cell          | cell        |
-| AF-1   | cell      | cell    | cell           | cell          | cell        |
-| AF-1   | cell      | cell    | cell           | cell          | cell        |
-| AF-1   | cell      | cell    | cell           | cell          | cell        |
-| AF-1   | cell      | cell    | cell           | cell          | cell        |
-| AF-1   | cell      | cell    | cell           | cell          | cell        |
+| ID    | Kurztitel                              | Erfüllt | Teilw. erfüllt | Nicht erfüllt | Erläuterung |
+| ------| -------------------------------------- | ------- | -------------- | ------------- | ----------- |
+| AF-1  | Single-Player-Game als Single-Page-App | X       |                |               |             |
+| AF-2  | Balance zwischen technischer Kompl.    | X       |                |               |             |
+| AF-3  | DOM-Tree-basiert                       | X       |                |               |             |
+| AF-4  | SmartPhone und Gyroskop-Steuerung      | X       |                |               |             |
+| AF-5  | Mobile First Prinzip                   | X       |                |               |             |
+| AF-6  | Intuitive Spielfreude                  | X       |                |               |             |
+| AF-7  | Levelkonzept vorgesehen                | X       |                |               |             |
+| AF-8  | Speicherkonzept                        | X       | X              |               |             |
+| AF-9  | Basic Libraries                        | X       |                |               |             |
+| AF-10 | Keine Spielereien                      | X       |                |               |             |
+| AF-11 | Dokumentation                          |         | X              |               |             |
