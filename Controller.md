@@ -50,3 +50,32 @@ window.onDeviceOrientation.listen((ev) {
       }
 ```
 
+### Game Loop
+
+```dart
+/// Haupt Game-Loop hier wird abgefragt, ob die Variblaen [isInitSpinTimerActive],
+  /// [isPlayerTimerActive] und eine UND-Bedingung beider aktiv sind.
+  /// Je nachdem, welcher der Satus aktiv ist wird ein onClick.listen() Event
+  /// an ein Objekt in der View angehängt. Dieses wartet dann auf seine Aktivierung
+  /// und startet die entsprechende Handler-Funktion.
+  void gameLoop () {
+
+    if(!isInitSpinTimerActive){
+      _view.getSpin.onClick.listen((ev) => handlegGetSpin());
+
+    }
+    if(!isPlayerTimerActive){
+      _view.startLevel.onClick.listen((ev) => handleStartLevel());
+      _view.spinDisplay.onClick.listen((ev) => handleSpinDisplay());
+    }
+
+
+    if(!isInitSpinTimerActive && !isPlayerTimerActive){
+      _view.displayLevelFailed.onClick.listen((ev)  => handledisplayLevelFailed());
+      _view.displayLevelFinished.onClick.listen((ev) => handleDisplayLevelFinished());
+    }
+
+  }
+```
+
+Der Game Loop fragt während des laufenden Spiels durchgehend ab, ob und welche Timer aktiv sind. Je nachdem ob der Spin-Timer aktiv ist oder nicht mehr, (Spin ist abgelaufen.) hat man das Spiel gewonnen oder verloren.
