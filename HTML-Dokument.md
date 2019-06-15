@@ -58,4 +58,7 @@ Die index.html wird als statisches HTML-Dokument vom Browser aufgerufen. Dann wi
 </body>
 
 </html>
-```
+```  
+
+Das *div* mit der id *level* nimmt hierbei eine besonders wichtige Funktion ein. In ihm werden von der **fillLevelWithEntity** Funktion der **DartBladeGameView.dart** die einzelnen Kacheln des Levels geladen. Dies passiert nachdem das aktuelle Level aus einer JSON-Datei ausgelesen wurde. Danach wird das *level*-Div mit den in der JSON-Datei enthaltenen verschiedenen Kacheln befüllt.  
+Es wird also noch nachträglich neuer HTML-Code in das Dokument eingefügt.
