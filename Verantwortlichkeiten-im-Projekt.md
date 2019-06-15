@@ -17,7 +17,13 @@
 
 | Komponente | Detail | Asset                                 | Verantwortlichkeit | Unterstützung | Anmerkungen | 
 | ---------- | ------ | ------------------------------------- | ------------------ | ------------- | ----------- |
-| Model      | Level          | lib/src/model/DartBladeGameModel.dart | Mario Odzga        | Tore Mielck   | Anmerkungen |
-| Model      | Blade          | lib/src/model/DartBladeGameModel.dart | Mario Odzga        | Tore Mielck   | Anmerkungen |
-| Model      | Level-Secrets  | lib/src/model/DartBladeGameModel.dart | Mario Odzga        | Tore Mielck   | Anmerkungen |
+| Model      | Level | lib/src/model/DartBladeGameModel.dart | Mario Odzga | Tore Mielck | Anmerkungen |
+|            | Blade | lib/src/model/DartBladeGameModel.dart | Mario Odzga | Tore Mielck | Anmerkungen |
+|            | Level-Secrets | lib/src/model/DartBladeGameModel.dart | Mario Odzga | Tore Mielck | Anmerkungen |
+|            | Level laden | lib/src/model/LoadingLevel.dart | Mario Odzga | Tore Mielck | Anmerkungen |
+| View       | HTML-Dokument | web/index.html | Mario Odzga | Tore Mielck | Anmerkungen |
+|            | Gestaltung | web/style.css | Mario Odzga | Tore Mielck | Anmerkungen |
+|            | Bild Dateien | web/img/* | Mario Odzga | Tore Mielck | Anmerkungen |
+|            | Logik der View | lib/src/model/DartBladeGameView.dart | Mario Odzga | Tore Mielck | Anmerkungen |
+
 
