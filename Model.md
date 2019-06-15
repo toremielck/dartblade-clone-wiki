@@ -17,3 +17,23 @@
 
 ## Model  
 
+Im Model wird der aktuelle Zustand des Spiels gespeichert. Der Zustand wird von *Events* aus dem Controller geändert.  
+
+Zu Beginn des Spiels wird das erste Level aus einer JSON-Datei geladen. Dies passiert über die Funktion **loadLevelInModel**, welche hier zu sehen ist:  
+
+```dart
+Future<bool> loadLevelInModel(int levelNumber) async {
+    _player = null;
+    _level = null;
+    if(!await LoadingLevel.getLevelDataFromJSON(levelNumber)) return false;
+    _currentLevel = LoadingLevel._levelNumber;
+    _levelSecret = getLevelSecretFromLevelNumber(_currentLevel);
+    _level = new Level(LoadingLevel._levelStructur, LoadingLevel._levelNumber, LoadingLevel._size_x, LoadingLevel._size_y, this);
+    return true;
+  }
+```  
+
+Die Funktion bekommt das zu ladene Level als Integer-Wert übergeben. Danach werden das Spieler-Objekt und das Level-Objekt auf *null* gesetzt. Dies ist erforderlich, damit der Spieler beim Neustart des Levels nicht am Punkt startet, an dem er beim Beenden des Levels war. Außerdem wird das Level zurückgesetzt, um auch hier nicht den vorherigen Status im neuen Level bzw. Versuch zu erhalten.  
+
+Innerhalb der Funktion bedienen wir uns der Funktion **getLevelDataFromJSON(levelNumber))** aus der Helfer-Klasse **LoadingLevel**. Diese läuft asynchron, da gewartet werden muss, bis die gesamte JSON-Datei eingelesen ist. Dann werden die Werte aus der entsprechenden JSON-Datei in die Model-Variablen übertragen.
+
