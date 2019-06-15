@@ -15,7 +15,7 @@
 4. [Nachweis der Anforderungen](Nachweis der Anforderungen)
 5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
 
-## Die Blade Entity  
+## Blade Entity  
 
 Die Instanz der Blade Entity stellt das Haupt-Spielerobjekt dart und lässt sich über den in Smartphones enthaltenen Gyroskop-Sensor steuern. Dies passiert über folgende Funktion in der **Blade.dart **.  
 
