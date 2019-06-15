@@ -26,7 +26,7 @@
 | AF-5  | Mobile First Prinzip                   | X       |                |               |             |
 | AF-6  | Intuitive Spielfreude                  | X       |                |               |             |
 | AF-7  | Levelkonzept vorgesehen                | X       |                |               |             |
-| AF-8  | Speicherkonzept                        | X       | X              |               |             |
+| AF-8  | Speicherkonzept                        | X       |                |               |Speicherkonzept ist über Level-Secrets realisiert|
 | AF-9  | Basic Libraries                        | X       |                |               |             |
 | AF-10 | Keine Spielereien                      | X       |                |               |             |
 | AF-11 | Dokumentation                          |         | X              |               |             |
