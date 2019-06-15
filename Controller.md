@@ -79,3 +79,29 @@ window.onDeviceOrientation.listen((ev) {
 ```
 
 Der Game Loop fragt während des laufenden Spiels durchgehend ab, ob und welche Timer aktiv sind. Je nachdem ob der Spin-Timer aktiv ist oder nicht mehr, (Spin ist abgelaufen.) hat man das Spiel gewonnen oder verloren.
+Die Aktionen, welche nach dem Gewinnen oder Verlieren eines Levels auszuführen sind, werden über verschiedene Handler abgewickelt. Als Beispiel ist hier der Handler, welcher ausgeführt wird, wenn ein Level gewonnen wurde.  
+
+```dart
+/// Sollte die Sieg-Bedingung des Levels erfüllt werden werden auch hier genau
+  /// wie beim erneuten Spielen eines Levels, durch erfülte Lost-Bedingung
+  /// alle Variablen neu gesetzt und das Level per JSON vollständig neu geladen.
+  void handleDisplayLevelFinished() async{
+
+    /// Alle Timer beenden.
+    cancelTimers();
+    spinCount = 0;
+    _player.spin = 0;
+    _model.gameoverTrigger = -1;
+    _view.displayLevelFinished.style.display ="none";
+
+    if(_currentLevel <= _lastLevel){
+
+      await _model.loadLevelInModel(_currentLevel);
+
+      _view.getSpin.style.display ="block";
+      loadCurrentLevel();
+
+    }
+
+  }
+```
