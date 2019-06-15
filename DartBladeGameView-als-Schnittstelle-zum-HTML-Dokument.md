@@ -13,4 +13,8 @@
    3.3 [Controller](Controller)  
    3.3.1 [Laufendes Spiel](Laufendes Spiel)  
 4. [Nachweis der Anforderungen](Nachweis der Anforderungen)
-5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
+5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)  
+
+## DartBladeGameView als Schnittstelle zum HTML-Dokument  
+
+Die *DartBladeGameView.dart* ist die zentrale Schnittstelle zur *index.html*. Mit Hilfe ihrer Funktionen wird das HTML-Dokument befüllt und abgeändert während das Spiel läuft.
