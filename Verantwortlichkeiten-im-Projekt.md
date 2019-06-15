@@ -15,6 +15,8 @@
 4. [Nachweis der Anforderungen](Nachweis der Anforderungen)
 5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
 
+## Verantwortlichkeiten im Projekt
+
 | Komponente | Detail | Asset                                 | Verantwortlichkeit | Unterstützung | Anmerkungen | 
 | ---------- | ------ | ------------------------------------- | ------------------ | ------------- | ----------- |
 | Model      | Level | lib/src/model/DartBladeGameModel.dart | Mario Odzga | Tore Mielck | Anmerkungen |
@@ -32,4 +34,5 @@
 | Level-JSONs |  | web/levels/* | Mario Odzga | Tore Mielck | Anmerkungen |
 | Dokumentation |  | doc/* | Mario Odzga | Tore Mielck | Anmerkungen |
 
-
+V = verantwortlich (hauptdurchführend, kann nur einmal pro Zeile vergeben werden)  
+U = unterstützend (Übernahme von Teilaufgaben)
