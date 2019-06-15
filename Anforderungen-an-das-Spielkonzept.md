@@ -21,11 +21,11 @@
 *  Das Spiel soll als One-Player-Game konzipiert werden.
 *  Es handelt sich bei dem Spiel um eine Single-Page HTML App.  
 *  Das Spiel muss als **eine statische Website** von einem Webserver oder CDNs bereitgestellt werden können.
-*  Die Steuerung des Spiels soll über den Gyrokop-Sensor eines Smartphones erfolgen  
+*  Die Steuerung des Spiels soll über den **Gyrokop-Sensor** eines Smartphones erfolgen  
 *  Das Spiel soll zwischen technischer Komplexität und der Komplexität des Spielkonzeptes ausbalanciert sein.  
-*  Das Spiel folgt dem MVC- (Model, View, Controller) Prinzip.  
+*  Das Spiel folgt dem **MVC- (Model, View, Controller) Prinzip**.  
 *  Die View des Spiels ist der DOM-Tree  
-*  Das Spiel ist für das Spielen auf einem Smartphone konzipiert (iIOS oder Android).  
+*  Das Spiel ist für das Spielen auf einem Smartphone konzipiert (iOS oder Android).  
 *  Das Spiel muss schnell und intuitiv erfassbar sein und Spielfreude erzeugen.  
 *  Es gibt ein Levelkonzept.  
 *  Das Spiel muss ausreichend dokumentiert sein.
