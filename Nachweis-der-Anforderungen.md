@@ -20,13 +20,13 @@
 | ID    | Kurztitel                              | Erfüllt | Teilw. erfüllt | Nicht erfüllt | Erläuterung |
 | ------| -------------------------------------- | ------- | -------------- | ------------- | ----------- |
 | AF-1  | Single-Player-Game als Single-Page-App | X       |                |               |             |
-| AF-2  | Balance zwischen technischer Kompl.    | X       |                |               |             |
+| AF-2  | Balance zwischen technischer Komplexität und Spielkonzept | X       |                |               |             |
 | AF-3  | DOM-Tree-basiert                       | X       |                |               |             |
 | AF-4  | Target Device: SmartPhone und Gyroskop-Steuerung | X              |               |              |             |
 | AF-5  | Mobile First Prinzip                   | X       |                |               |             |
 | AF-6  | Intuitive Spielfreude                  | X       |                |               |             |
-| AF-7  | Levelkonzept vorgesehen                | X       |                |               |             |
-| AF-8  | Speicherkonzept                        | X       |                |               |Speicherkonzept ist über Level-Secrets realisiert|
+| AF-7  | Das Spiel muss ein Levelkonzept vorsehen | X       |                |               |             |
+| AF-8  | Ggf. erforderliche Speicherkonzepte sind Client-seitig zu realisieren | X       |                |               |Speicherkonzept ist über Level-Secrets realisiert|
 | AF-9  | Basic Libraries                        | X       |                |               |             |
 | AF-10 | Keine Spielereien                      | X       |                |               |             |
 | AF-11 | Dokumentation                          |         | X              |               | Die Dokumentation ist evtl. nicht so umfangreich, wie von Ihnen erwartet            |
