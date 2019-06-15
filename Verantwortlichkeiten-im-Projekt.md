@@ -25,5 +25,11 @@
 |            | Gestaltung | web/style.css | Mario Odzga | Tore Mielck | Anmerkungen |
 |            | Bild Dateien | web/img/* | Mario Odzga | Tore Mielck | Anmerkungen |
 |            | Logik der View | lib/src/model/DartBladeGameView.dart | Mario Odzga | Tore Mielck | Anmerkungen |
+| Controller | Eventhandling | lib/src/model/DartBladeGameController.dart | Mario Odzga | Tore Mielck | Anmerkungen |
+|            | Level-Logik | lib/src/model/DartBladeGameController.dart | Mario Odzga | Tore Mielck | Anmerkungen |
+|            | Kollisionserkennung | lib/src/model/DartBladeGameController.dart | Mario Odzga | Tore Mielck | Anmerkungen |
+|            | Timer-Handling | lib/src/model/DartBladeGameController.dart | Mario Odzga | Tore Mielck | Anmerkungen |
+| Level-JSONs |  | web/levels/* | Mario Odzga | Tore Mielck | Anmerkungen |
+| Dokumentation |  | doc/* | Mario Odzga | Tore Mielck | Anmerkungen |
 
 
