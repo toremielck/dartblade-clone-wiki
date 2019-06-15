@@ -17,4 +17,23 @@
 
 ## DartBladeGameView als Schnittstelle zum HTML-Dokument  
 
-Die *DartBladeGameView.dart* ist die zentrale Schnittstelle zur *index.html*. Mit Hilfe ihrer Funktionen wird das HTML-Dokument befüllt und abgeändert während das Spiel läuft.
+Die *DartBladeGameView.dart* ist die zentrale Schnittstelle zur *index.html*. Mit Hilfe ihrer Funktionen wird das HTML-Dokument befüllt und abgeändert während das Spiel läuft.  
+
+Es wird beispielsweise die Position des Spielers, welcher in der *index.html* ein reines Div-Element ist von der *DartBladeGameView.dart* in die *index.html* übertragen. Dafür zuständig ist folgender Code:  
+
+```dart
+/// Updatet die Positionswerte des Players
+  void update (Blade player){
+    player.update();
+
+    final round = "${this.size}px";
+
+    this.blade.style.top = "${player.top}px";
+    this.blade.style.left = "${player.left}px";
+    this.blade.style.width = "${player.width}px";
+    this.blade.style.height = "${player.width}px";
+    this.blade.style.borderRadius = round;
+  }
+```  
+
+Die Links-Rechts-Position des Spieler-Divs entspricht im Model *this.blade.style.top*. Die Oben-Unten-Position des Spielers entspricht
