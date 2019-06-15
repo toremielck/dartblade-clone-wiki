@@ -22,7 +22,7 @@
 | AF-1  | Single-Player-Game als Single-Page-App | X       |                |               |             |
 | AF-2  | Balance zwischen technischer Kompl.    | X       |                |               |             |
 | AF-3  | DOM-Tree-basiert                       | X       |                |               |             |
-| AF-4  | SmartPhone und Gyroskop-Steuerung      | X       |                |               |             |
+| AF-4  | Target Device: SmartPhone und Gyroskop-Steuerung | X              |               |              |             |
 | AF-5  | Mobile First Prinzip                   | X       |                |               |             |
 | AF-6  | Intuitive Spielfreude                  | X       |                |               |             |
 | AF-7  | Levelkonzept vorgesehen                | X       |                |               |             |
