@@ -17,6 +17,72 @@
 
 ## View
 
+### Füllen des Levels mit den Tiles  
+
+Das Level wird über die Funktion *fillLevelWithEntity* mit den Kacheln des aktuellen Levels befüllt.  
+
+```dart
+/// Füllen des HTML-Level-Elements mit den verschiedenen Tile-Typen als Divs
+  ///
+  /// Es wird jedem Div ein Typ und ein x-, sowie y-Wert mitgegeben.
+  void fillLevelWithEntity(List<List<TileTypes>> l ){
+
+    int _row = 0;
+    int _col = 0;
+
+    /// Gehe die Liste mit den verschiedenen Typen an Tiles, welche übergeben wird
+    /// durch und füge je nachdem, welches es ist eines in das HTML-Level-Element ein.
+    for(List<TileTypes> row in l){
+      var tileDiv = new DivElement();
+      tileDiv.className = "tr";
+      level.children.add(tileDiv);
+      for(TileTypes s in row){
+        switch (s){
+          case TileTypes.GROUNDTILE:
+            var tileDiv = new DivElement();
+            tileDiv.className = "td ground-tile";
+            tileDiv.setAttribute("tileType", "ground-tile");
+            tileDiv.setAttribute("x", "$_col");
+            tileDiv.setAttribute("y", "$_row");
+            level.children.add(tileDiv);
+            break;
+          case TileTypes.GAMEOVERTILE:
+            var tileDiv = new DivElement();
+            tileDiv.className = "td gameover-tile";
+            tileDiv.setAttribute("tileType", "gameover-tile");
+            tileDiv.setAttribute("x", "$_col");
+            tileDiv.setAttribute("y", "$_row");
+            level.children.add(tileDiv);
+            break;
+          case TileTypes.SPINTILE:
+            var tileDiv = new DivElement();
+            tileDiv.className = "td spin-tile";
+            tileDiv.setAttribute("tileType", "spin-tile");
+            tileDiv.setAttribute("x", "$_col");
+            tileDiv.setAttribute("y", "$_row");
+            level.children.add(tileDiv);
+            break;
+          case TileTypes.GOALTILE:
+            var tileDiv = new DivElement();
+            tileDiv.className = "td goal-tile";
+            tileDiv.setAttribute("tileType", "goal-tile");
+            tileDiv.setAttribute("x", "$_col");
+            tileDiv.setAttribute("y", "$_row");
+            level.children.add(tileDiv);
+            break;
+          default:
+            break;
+        }
+        _col++;
+      }
+      _col = 0;
+      _row++;
+    }
+  }
+```  
+
+Wie man sehen kann wird eine Liste von Kacheln als Parameter der Funktion übergeben. Diese erstellt dann mit Hilfe der ersten Schleife jeweils eine Reihe des Levels, welche dann wiederum mit Hilfe der zweiten verschachtelten Schleife, in welcher sich ein *switch* befindet, der die unterschiedlichen Kacheln unterscheidet, jeweils ein Div-Element in Dart erstellt. Diesem Div-Element werden dann die dem Kachel-Typ entsprechenden Attribute (Kachel-Typ) als HTML-Parameter angehängt. Außerdem erhält jede Kachel einen x- und y-Wert, sodass die Position der Kachel im Level ausgelesen werden kann.
+
 ### Bewegen des Levels  
 
 ```dart
