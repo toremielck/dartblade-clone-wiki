@@ -13,4 +13,8 @@
    3.3 [Controller](Controller)  
    3.3.1 [Laufendes Spiel](Laufendes Spiel)  
 4. [Nachweis der Anforderungen](Nachweis der Anforderungen)
-5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
+5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)  
+
+## UML-Diagramm der Architektur  
+
+![Screenshot_2019-06-15_at_16.05.32](uploads/f960fefc0c4b0e2603b26f0a6eac77c9/Screenshot_2019-06-15_at_16.05.32.png)
