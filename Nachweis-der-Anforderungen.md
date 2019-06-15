@@ -26,7 +26,7 @@
 | AF-5  | Mobile First Prinzip                   | X       |                |               |             |
 | AF-6  | Intuitive Spielfreude                  | X       |                |               |             |
 | AF-7  | Das Spiel muss ein Levelkonzept vorsehen | X       |                |               |             |
-| AF-8  | Ggf. erforderliche Speicherkonzepte sind Client-seitig zu realisieren |         | X              |               |Speicherkonzept ist über Level-Secrets realisiert|
+| AF-8  | Ggf. erforderliche Speicherkonzepte sind Client-seitig zu realisieren | X        |                |               |Speicherkonzept ist über Level-Secrets realisiert|
 | AF-9  | Basic Libraries                        | X       |                |               |             |
 | AF-10 | Keine Spielereien                      | X       |                |               |             |
 | AF-11 | Dokumentation                          |         | X              |               | Die Dokumentation ist evtl. nicht so umfangreich, wie von Ihnen erwartet            |
