@@ -106,4 +106,29 @@ Als Beispiel ist hier der Handler, welcher ausgeführt wird, wenn ein Level gewo
     }
 
   }
-```
+```  
+
+Außerdem gibt es noch reset-Funktionen, welche alle Objekte reseten, sodass beim Neustart eines Levels wieder alle Werte zurückgesetzt werden.  
+
+```dart
+/// Die Position des Players auf den Center des Viewports setzen und dann die
+  /// View updaten. - Diese Funktion wird benötigt unm zwischen des Levels den
+  /// Player wieder auf seine Start-Position zu bringen.
+  void resetPlayerPositiontoCenter(){
+    _player.position(_view.center_x, _view.center_y);
+    _view.update(_player);
+
+  }
+
+  /// Setzt die Position des Levels wieder auf die Startposition. - Dies wird
+  /// benötigt um zwischen dem Laden der Levels nicht die alte Position des Levels
+  /// aus dem vorherigen Spiel zu übernehmen.
+  void resetLevelPosition(){
+    _view.level.innerHtml = "";
+    _view.level.style.top = "0px";
+    _view.level.style.right = "0px";
+    _view.levelPositionTop = 0;
+    _view.levelPositionRight = 0;
+  }
+```  
+
