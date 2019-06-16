@@ -13,7 +13,9 @@
    3.3 [Controller](Controller)  
    3.3.1 [Laufendes Spiel](Laufendes Spiel)  
 4. [Nachweis der Anforderungen](Nachweis der Anforderungen)
-5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
+5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)  
+
+## Kollisions Detektion
 
 Die Kollisions-Detektion ist ein Herzstück unseres Spiels. Es muss bei jeder Bewegung des Spielers überprüft werden, ob soeben eine Kollision mit einem relevanten Tile stattgefunden hat.  
 
