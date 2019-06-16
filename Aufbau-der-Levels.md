@@ -18,3 +18,16 @@
 
 ## Aufbau der Levels  
 
+Die Levels unseres Spiels sind als JSON-Dateien kodiert. Diese werden dann geladen und dekodiert. Fertig dekodiert werden die einzelnen Zeichen der Level-Struktur dann als die Kacheln des Spielfeldes dargestellt.  
+
+Als Beispiel hier das 3. Level kodiert in JSON:  
+
+```json
+{
+  "levelNumber": 2,
+  "size_x": 32,
+  "size_y": 14,
+  "levelStructur": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|X##############################X|X##############################X|X##############################X|X##############################X|X##############################X|X##############################X|X##############################X|X##############################X|X#######################XXX####X|X#######################XG#####X|X#######################XXX####X|X##############################X|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|"
+}
+```
+
