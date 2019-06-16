@@ -14,7 +14,9 @@
    3.3 [Controller](Controller)  
    3.3.1 [Laufendes Spiel](Laufendes Spiel)  
 4. [Nachweis der Anforderungen](Nachweis der Anforderungen)
-5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt) 
+5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)  
+
+## HTML Dokument 
 
 Die index.html wird als statisches HTML-Dokument vom Browser aufgerufen. Dann wird diese von der **DartBladeGameView.dart** im Verlaufe des Spiels manipuliert. So stellt das HTML-Dokument zu jeder Zeit den aktuellen Status des Spiels grafisch dar.  
 
