@@ -17,7 +17,7 @@
 5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
 
 ## Das Ground-Tile  
-![ground](uploads/9f60cffe5305edf0e4582c41764c856c/ground.jpg)  
+![ground](uploads/f3539658da9d00c653cfc21e34c7f5bd/ground.png) 
 Das Ground-Tile ist das normale Hintergrund-Tile des Games auf dem sich der Blade frei bewegen kann. Es wird in keinem Fall eine Aktion ausgeführt.  
 
 ## Das Goal-Tile  
@@ -28,3 +28,7 @@ Das Goal-Tile ist das zu erreichende Ziel-Feld des Spiels. Erreicht man durch da
 ![spin](uploads/2bc61ee40225e1130be1f1a778cd49ca/spin.gif)  
 Beim überfahren des Spin-Tiles mit dem Blade fängt das gesamte Level an zu wackeln. Dies passiert solange, bis man das selbe oder ein anderes Spin-Tile nocheinmal überfährt.  
 Sinn dieses Tiles ist es z.B. das Goal-Tile s.o. mit Spin-Tiles einzugrenzen, und so die Steuerung des Blades zu erschweren.
+
+## Das Gameover-Tile  
+![gameover-tile](uploads/85e58b0b41d4d1091dda23e0e04915e2/gameover-tile.png)  
+Sollte der Kreisel dieses Tile überfahren ist das Level verloren.
