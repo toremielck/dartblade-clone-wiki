@@ -16,9 +16,8 @@
 4. [Nachweis der Anforderungen](Nachweis der Anforderungen)
 5. [Verantwortlichkeiten im Projekt](Verantwortlichkeiten im Projekt)
 
-## Das Ground-Tile
-
-![ground](uploads/f3539658da9d00c653cfc21e34c7f5bd/ground.png) 
+## Das Ground-Tile  
+![ground](uploads/f3539658da9d00c653cfc21e34c7f5bd/ground.png)  
 Das Ground-Tile ist das normale Hintergrund-Tile des Games auf dem sich der Blade frei bewegen kann. Es wird in keinem Fall eine Aktion ausgeführt.  
 
 ## Das Goal-Tile  
