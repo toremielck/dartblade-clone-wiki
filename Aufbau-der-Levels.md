@@ -39,4 +39,5 @@ Als letzter Key folgt die *levelStructur*. Diese ist das Level kodiert in ASCII-
 *  "#" steht für ein Ground-Tile.
 *  "G" steht für das Goal-Tile des Levels, welches es zu erreichen gilt.
 *  "~" steht für das Spin-Tile, welches das Level zum wackeln bringt, soblad man rüberfährt.
+*  "|" ist der Seperator. Dieser sagt dem Parser, dass eine neue Zeile anzufangen ist.
 
