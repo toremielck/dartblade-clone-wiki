@@ -25,3 +25,5 @@ Der Spieler übernimmt die Steuerung eines Kreisels auf einer schwebenden Plattf
 *  verschiedene Items im Level
 
 Das Level besteht aus einem n x m Feld, welches hardcodiert in einer JSON-Datei geschrieben wird. Diese JSON-Dateien werden im Spielverlauf vom Sever nachgeladen. Das Spiel ist für ein Smartphone konzipiert und die Hauptsteuerung des Kreisel erfolgt durch den Gyroskopsensor.
+
+Eine PC-Steuerung für unser Spiel haben wir nicht umgesetzt, da das Spielprinzip auf der Geschicklichkeit basiert den Kreisel auf einer Plattform zu balancieren. Dies wäre am PC mit den Pfeiltasten möglich, nur wäre es dann viel zu einfach das Spiel zu gewinnen, da man den Kreisel dann Stück für Stück bis zum Goal-Tile bewegen könnte.
