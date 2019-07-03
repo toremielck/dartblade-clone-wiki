@@ -2,7 +2,7 @@
 
 # Inhaltsverzeichnis
 
-1. [Anforderungen an das Spielkonzept](Anforderungen an das Spielkonzept)
+1. [Anforderungen an das Spielkonzept](/blob/master/Anforderungen-an-das-Spielkonzept.md)
 2. [Spielkonzept](Spielkonzept)
 3. [Architektur und Implementierung](Architektur und Implementierung)  
    3.1 [Model](Model)  
